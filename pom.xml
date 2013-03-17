@@ -28,7 +28,7 @@
     <atlassian.plugin.directory>
     org/whitesource/bamboo/plugins</atlassian.plugin.directory>
     <maven.version>3.0.4</maven.version>
-    <wss.agents.version>1.2.1</wss.agents.version>
+    <wss.agents.version>1.2.3</wss.agents.version>
   </properties>
   <dependencies>
     <!-- White Source -->
@@ -155,7 +155,7 @@
           <plugin>
             <groupId>org.whitesource</groupId>
             <artifactId>whitesource-maven-plugin</artifactId>
-            <version>1.1.2</version>
+            <version>1.1.4</version>
             <configuration>
               <orgToken>${env.WSS_API_KEY}</orgToken>
             </configuration>
